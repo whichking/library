@@ -1,0 +1,30 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "A digital catalogue for our books",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madisonhicks/library.git"
+  },
+  "author": "madisonhicks",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/madisonhicks/library/issues"
+  },
+  "homepage": "https://github.com/madisonhicks/library#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.11"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "typescript": "^3.8.3"
+  }
+}
