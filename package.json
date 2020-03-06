@@ -6,8 +6,9 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prestart": "npm run build",
-    "start": "node ."
+    "prestart": "npm run build && docker-compose up -d",
+    "start": "node .",
+    "poststart": "docker-compose down"
   },
   "repository": {
     "type": "git",
