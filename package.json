@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/madisonhicks/library#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "knex": "^0.20.11"
   },
   "devDependencies": {
